@@ -12,7 +12,7 @@ namespace LaptopShopApp.Services
         private DatabaseConnection()
         {
             // Default connection string - can be configured
-            _connectionString = @"Server=localhost;Database=LaptopShopDB;Integrated Security=True;TrustServerCertificate=True;";
+            _connectionString = @"Server=DESKTOP-4LVS5AN\SQLEXPRESS;Database=LaptopShopDB;User=sa;Password=123456;TrustServerCertificate=True;";
         }
 
         public static DatabaseConnection Instance
